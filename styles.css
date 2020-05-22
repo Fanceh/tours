@@ -172,9 +172,25 @@ nav{
 /*Experience Section*/
 .experience-outdoors{
     padding: 0;
+    position: relative;
+}
+
+.scroll-down{
+    height: auto;
+    width: auto;
+    font-size: 5rem;
+    position: absolute;
+    top:0%;
+    left: 50%;
+    transform: rotate(-90deg) translate(250%,-50%);
+}
+
+.scroll-down:active{
+    color: #eb648c;
 }
 
 .title-heading{
+    margin-top: 4rem;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10rem;
