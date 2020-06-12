@@ -1,1 +1,1 @@
-link: fanceh.github.io/tours
+link: https://fanceh.github.io/tours
