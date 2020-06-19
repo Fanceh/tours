@@ -11,6 +11,8 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <!--AOS CDN-->
+    <link rel="stylesheet" href="aos.css">
     <!--Our own stylesheet-->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -55,8 +57,7 @@
     </header>
 
     <main>
-
-        <section class="hero">
+        <section class="hero" data-aos="slide-up">
             <div class="container">
                 <div class="main-message">
                     <h3>The Great Outdoor</h3>
@@ -69,7 +70,7 @@
             </div>
         </section>
 
-        <section class="experience-outdoors">
+        <section class="experience-outdoors" data-aos="slide-up">
             <div class="container">
                 <a href="#scroll-down" class="scroll-down">&#171;</a>
                 <div class="title-heading">
@@ -79,21 +80,21 @@
 
                     <div class="activities-grid">
                         <!-- grid-item #1 -->
-                        <div class="activities-grid-item star-gazzing">
+                        <div class="activities-grid-item star-gazzing" data-aos="slide-up">
                             <i class="icon ion-md-star"></i>
                             <h1>Star Gazing</h1>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero blanditiis qui voluptatum minima, sapiente nesciunt distinctio eius quas eveniet ipsam maiores deserunt, omnis reprehenderit delectus voluptatibus minus, pariatur numquam! Possimus?</p>
                         </div>
 
                         <!-- grid-item #2 -->
-                        <div class="activities-grid-item hiking">
+                        <div class="activities-grid-item hiking" data-aos="slide-up">
                             <i class="icon ion-md-compass"></i>
                             <h1>Hiking</h1>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero blanditiis qui voluptatum minima, sapiente nesciunt distinctio eius quas eveniet ipsam maiores deserunt, omnis reprehenderit delectus voluptatibus minus, pariatur numquam! Possimus?</p>
                         </div>
 
                         <!-- grid-item #3 -->
-                        <div class="activities-grid-item camping">
+                        <div class="activities-grid-item camping" data-aos="slide-up">
                             <i class="icon ion-md-bonfire"></i>
                             <h1>Camping</h1>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero blanditiis qui voluptatum minima, sapiente nesciunt distinctio eius quas eveniet ipsam maiores deserunt, omnis reprehenderit delectus voluptatibus minus, pariatur numquam! Possimus?</p>
@@ -103,7 +104,7 @@
             </div>
         </section>
 
-        <section class="testimonials">
+        <section class="testimonials" data-aos="slide-up">
             <div class="container">
                 <div class="testimonial">
                     <div class="testimonial-text-box">
@@ -118,7 +119,7 @@
             </div>
         </section>
 
-        <section class="begin-adventure">
+        <section class="begin-adventure" data-aos="slide-up">
             <div class="container">
                 <div class="title-heading">
                     <h3>Let The</h3>
@@ -145,5 +146,11 @@
     </footer>    
 
     <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+        });
+    </script>
 </body>
 </html>
